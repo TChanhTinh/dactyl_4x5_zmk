@@ -1,0 +1,8 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: zmkfirmware-split-battery-report
+      url-base: https://github.com/Katona/
+  self:
+    path: config
