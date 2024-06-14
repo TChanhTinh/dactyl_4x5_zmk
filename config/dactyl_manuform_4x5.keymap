@@ -34,31 +34,31 @@
 
         lower_layer {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6    &kp N7          &kp N8  &kp N9     &kp N0
-&kp TAB       &out OUT_USB  &out OUT_BLE  &trans        &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &kp F12
-              &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans  &trans
-                                          &trans        &trans          &trans          &trans
-                                          &trans        &trans          &trans          &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6    &kp N7          &kp N8  &kp N9     &kp N0
+&kp TAB       &trans        &trans        &trans        &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &kp F12
+              &trans        &trans        &trans        &trans    &trans          &trans          &trans  &trans
+                                          &trans        &trans    &trans          &trans
+                                          &trans        &trans    &trans          &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
-&kp ESC  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp F11  &kp F12
-         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-                         &trans  &trans    &trans  &trans
-                         &trans  &trans    &trans  &trans
+&kp F1   &kp F2        &kp F3        &kp F4        &kp F5          &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
+&kp ESC  &out OUT_USB  &out OUT_BLE  &trans        &trans          &trans  &trans  &trans  &kp F11  &kp F12
+         &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &trans  &trans  &trans  &trans
+                                     &trans        &trans          &trans  &trans
+                                     &trans        &trans          &trans  &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR     &kp PERCENT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp EQUAL              &kp DELETE
-&none            &none        &kp CARET  &kp AMPERSAND  &kp ASTERISK    &kp SEMICOLON         &kp SQT                &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
-                 &trans       &trans     &trans         &trans          &kp COMMA             &kp PERIOD             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-                                         &mo 2          &trans          &trans                &mo 2
-                                         &trans         &trans          &trans                &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR     &kp PERCENT             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp EQUAL              &kp DELETE
+&none            &none        &kp CARET  &kp AMPERSAND  &kp ASTERISK            &kp SEMICOLON         &kp SQT                &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
+                 &trans       &trans     &kp GRAVE      &kp NON_US_BACKSLASH    &kp COMMA             &kp PERIOD             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+                                         &trans         &trans                  &trans                &trans
+                                         &trans         &trans                  &trans                &trans
             >;
         };
     };
