@@ -44,17 +44,22 @@
 
         n2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <1 28>;
+            key-positions = <28 2>;
         };
 
         n3 {
             bindings = <&kp NUMBER_3>;
-            key-positions = <2 28>;
+            key-positions = <28 3>;
         };
 
         to1 {
             bindings = <&mo 1>;
             key-positions = <28 29>;
+        };
+
+        to2 {
+            bindings = <&mo 2>;
+            key-positions = <32 33>;
         };
     };
 
@@ -63,11 +68,11 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R           &kp T           &kp Y         &kp U       &kp I  &kp O      &kp P
-&kp A  &kp S  &kp D  &kp F           &kp G           &kp H         &kp J       &kp K  &kp L      &kp BACKSPACE
-       &kp X  &kp C  &kp V           &kp B           &kp N         &kp M       &kp Z  &kp ENTER
-                     &kp LEFT_SHIFT  &kp SPACE       &mo 3         &mo 2
-                     &kp LCTRL       &kp LEFT_ALT    &kp LEFT_ALT  &kp ESCAPE
+&kp Q  &kp W  &kp E  &kp R           &kp T           &kp Y  &kp U  &kp I  &kp O      &kp P
+&kp A  &kp S  &kp D  &kp F           &kp G           &kp H  &kp J  &kp K  &kp L      &kp BACKSPACE
+       &kp X  &kp C  &kp V           &kp B           &kp N  &kp M  &kp Z  &kp ENTER
+                     &kp LEFT_SHIFT  &kp SPACE       &mo 3  &mo 1
+                     &kp LCTRL       &kp LEFT_ALT    &mo 1  &mo 2
             >;
         };
 
