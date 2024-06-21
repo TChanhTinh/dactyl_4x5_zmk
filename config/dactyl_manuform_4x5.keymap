@@ -112,7 +112,7 @@
             bindings = <&shift>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -122,7 +122,7 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
     };
@@ -134,7 +134,7 @@
             bindings = <
 &as Q  &as W  &as E  &as R           &as T            &as Y      &as U  &as I  &as O      &as P
 &as A  &as S  &as D  &as F           &as G            &as H      &as J  &as K  &as L      &kp BACKSPACE
-       &as X  &as C  &as V           &as B            &as N      &as M  &as Z  &as ENTER
+       &as X  &as C  &as V           &as B            &as N      &as M  &as Z  &kp ENTER
                      &kp LEFT_SHIFT  &htmo 1 SPACE    &mo 3      &mo 1
                      &kp LCTRL       &kp LEFT_ALT     &kp ENTER  &mo 2
             >;
@@ -163,7 +163,7 @@
         raise_layer {
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR     &kp PERCENT             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &as MINUS         &as EQUAL          &kp DELETE
-&none            &none        &kp CARET  &kp AMPERSAND  &kp ASTERISK            &as SEMICOLON         &as SQT                &as LEFT_BRACKET  &as RIGHT_BRACKET  &kp QUESTION
+&none            &none        &kp CARET  &kp AMPERSAND  &kp ASTERISK            &as SEMICOLON         &as SQT                &as LEFT_BRACKET  &as RIGHT_BRACKET  &kp SLASH
                  &trans       &trans     &as GRAVE      &as NON_US_BACKSLASH    &as COMMA             &as PERIOD             &kp LESS_THAN     &kp GREATER_THAN
                                          &trans         &trans                  &trans                &kp LEFT_SHIFT
                                          &trans         &trans                  &trans                &trans
