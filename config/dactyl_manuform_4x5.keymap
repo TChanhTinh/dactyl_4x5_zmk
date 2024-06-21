@@ -163,7 +163,7 @@
         raise_layer {
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR     &kp PERCENT             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &as MINUS         &as EQUAL          &kp DELETE
-&none            &none        &kp CARET  &kp AMPERSAND  &kp ASTERISK            &as SEMICOLON         &as SQT                &as LEFT_BRACKET  &as RIGHT_BRACKET  &kp SLASH
+&none            &none        &kp CARET  &kp AMPERSAND  &kp ASTERISK            &as SEMICOLON         &as SQT                &as LEFT_BRACKET  &as RIGHT_BRACKET  &as SLASH
                  &trans       &trans     &as GRAVE      &as NON_US_BACKSLASH    &as COMMA             &as PERIOD             &kp LESS_THAN     &kp GREATER_THAN
                                          &trans         &trans                  &trans                &kp LEFT_SHIFT
                                          &trans         &trans                  &trans                &trans
