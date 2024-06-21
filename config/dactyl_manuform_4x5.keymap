@@ -52,11 +52,6 @@
             key-positions = <28 3>;
         };
 
-        to1 {
-            bindings = <&mo 1>;
-            key-positions = <28 29>;
-        };
-
         to2 {
             bindings = <&mo 2>;
             key-positions = <32 33>;
@@ -145,7 +140,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6    &kp N7          &kp N8  &kp N9     &kp N0
 &kp TAB       &trans        &trans        &trans        &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &kp F12
               &trans        &trans        &trans        &trans    &trans          &trans          &trans  &trans
-                                          &kp LEFT_WIN  &trans    &trans          &trans
+                                          &kp LCTRL     &trans    &kp LEFT_SHIFT  &trans
                                           &trans        &trans    &trans          &trans
             >;
         };
