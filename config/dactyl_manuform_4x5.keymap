@@ -39,22 +39,37 @@
 
         k1 {
             bindings = <&kp NUMBER_1>;
-            key-positions = <0 28>;
+            key-positions = <0 29>;
+            layers = <4>;
         };
 
         n2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <28 2>;
+            key-positions = <2 29>;
+            layers = <4>;
         };
 
         n3 {
             bindings = <&kp NUMBER_3>;
-            key-positions = <28 3>;
+            key-positions = <3 29>;
         };
 
         to2 {
             bindings = <&mo 2>;
             key-positions = <32 33>;
+            layers = <4>;
+        };
+
+        to1 {
+            bindings = <&mo 1>;
+            key-positions = <28 29>;
+            layers = <4>;
+        };
+
+        t3-2 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <29 2>;
+            layers = <4>;
         };
     };
 
@@ -107,7 +122,7 @@
             bindings = <&shift>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
 
@@ -117,7 +132,7 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
     };
@@ -149,7 +164,7 @@
             bindings = <
 &kp F1          &kp F2        &kp F3        &kp F4          &kp F5          &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
 &kp LEFT_SHIFT  &out OUT_USB  &out OUT_BLE  &trans          &trans          &trans  &trans  &trans  &kp F11  &kp F12
-                &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &trans  &trans  &trans  &trans
+                &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &to 0   &to 4   &trans  &trans
                                             &kp LEFT_SHIFT  &trans          &trans  &trans
                                             &trans          &trans          &trans  &trans
             >;
@@ -162,6 +177,16 @@
                  &as GRAVE    &as NON_US_BACKSLASH  &trans         &trans          &trans                &trans                 &as COMMA         &as PERIOD
                                                     &trans         &trans          &trans                &kp LEFT_SHIFT
                                                     &trans         &trans          &trans                &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&kp Q  &kp W  &kp E  &kp R           &kp T           &kp Y          &kp U  &kp I  &kp O      &kp P
+&kp A  &kp S  &kp D  &kp F           &kp G           &kp H          &kp J  &kp K  &kp L      &kp BACKSPACE
+       &kp X  &kp C  &kp V           &kp B           &kp N          &kp M  &kp Z  &kp ENTER
+                     &kp LEFT_SHIFT  &kp SPACE       &htmo 3 SPACE  &mo 1
+                     &kp LCTRL       &kp LEFT_ALT    &kp TAB        &mo 2
             >;
         };
     };
