@@ -127,11 +127,11 @@
 
         default_layer {
             bindings = <
-&as Q  &as W  &as E  &as R           &as T            &as Y          &as U  &as I  &as O      &as P
-&as A  &as S  &as D  &as F           &as G            &as H          &as J  &as K  &as L      &kp BACKSPACE
-       &as X  &as C  &as V           &as B            &as N          &as M  &as Z  &kp ENTER
+&as Q  &as W  &as E  &as R           &as T            &as Y          &as U           &as I  &as O      &as P
+&as A  &as S  &as D  &as F           &as G            &as H          &as J           &as K  &as L      &kp BACKSPACE
+       &as X  &as C  &as V           &as B            &as N          &as M           &as Z  &kp ENTER
                      &kp LEFT_SHIFT  &htmo 1 SPACE    &htmo 3 SPACE  &mo 1
-                     &kp LCTRL       &kp LEFT_ALT     &kp TAB        &mo 2
+                     &kp LCTRL       &kp LEFT_ALT     &kp TAB        &htmo 2 ESCAPE
             >;
         };
 
