@@ -142,11 +142,11 @@
 
         default {
             bindings = <
-&as Q  &as W  &as E  &as R           &as T            &as Y          &as U           &as I  &as O    &as P
-&as A  &as S  &as D  &as F           &as G            &as H          &as J           &as K  &as L    &kp BACKSPACE
-       &as X  &as C  &as V           &as B            &as N          &as M           &as Z  &kp TAB
+&as Q  &as W  &as E  &as R           &as T            &as Y          &as U           &as I  &as O      &as P
+&as A  &as S  &as D  &as F           &as G            &as H          &as J           &as K  &as L      &kp BACKSPACE
+       &as X  &as C  &as V           &as B            &as N          &as M           &as Z  &kp ENTER
                      &kp LEFT_SHIFT  &htmo 2 SPACE    &htmo 4 SPACE  &mo 2
-                     &kp LCTRL       &kp LEFT_ALT     &kp ENTER      &htmo 3 ESCAPE
+                     &kp LCTRL       &kp LEFT_ALT     &kp TAB        &htmo 3 ESCAPE
             >;
         };
 
