@@ -110,6 +110,11 @@
             bindings = <&kp LA(Z)>;
             key-positions = <30 31>;
         };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
