@@ -111,6 +111,11 @@
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
         };
+
+        screensh {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <7 6 8 9>;
+        };
     };
 
     macros {
