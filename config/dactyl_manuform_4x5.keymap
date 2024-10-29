@@ -67,11 +67,6 @@
         };
 
         evkey {
-            bindings = <&kp LA(Z)>;
-            key-positions = <34 35>;
-        };
-
-        evkey {
             bindings = <&kp LC(Y)>;
             key-positions = <34 35>;
         };
