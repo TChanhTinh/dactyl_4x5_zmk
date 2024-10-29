@@ -71,9 +71,9 @@
             key-positions = <34 35>;
         };
 
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <3 4>;
+        evkey {
+            bindings = <&kp LC(Y)>;
+            key-positions = <34 35>;
         };
 
         paste {
@@ -101,11 +101,6 @@
             key-positions = <30 31>;
         };
 
-        del {
-            bindings = <&kp DELETE>;
-            key-positions = <8 9>;
-        };
-
         screensh {
             bindings = <&kp LG(LS(S))>;
             key-positions = <7 6 8 9>;
@@ -114,6 +109,11 @@
         z {
             bindings = <&kp LC(Z)>;
             key-positions = <32 33>;
+        };
+
+        ev {
+            bindings = <&kp LA(Z)>;
+            key-positions = <30 31>;
         };
     };
 
