@@ -92,7 +92,7 @@
         };
 
         tabalt {
-            bindings = <&kp LC(Z)>;
+            bindings = <&kp LA(Z)>;
             key-positions = <30 31>;
         };
 
