@@ -98,12 +98,12 @@
         };
 
         backward {
-            bindings = <&kp LC(TAB)>;
+            bindings = <&kp LC(LS(TAB))>;
             key-positions = <15 16>;
         };
 
         tabalt {
-            bindings = <&kp LA(TAB)>;
+            bindings = <&kp LC(Z)>;
             key-positions = <30 31>;
         };
 
